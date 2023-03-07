@@ -1,5 +1,6 @@
 class SessionsController < ApplicationController
   def new
+
   end
 
   def create
@@ -24,5 +25,7 @@ class SessionsController < ApplicationController
     flash["notice"] = "Session Done!"
     redirect_to "/login"
   end
+
+
 end
   
